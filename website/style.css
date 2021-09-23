@@ -1,0 +1,61 @@
+#app {
+    width: 30%;
+    height: 80vh;
+    border: 2px solid black;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+.headline {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#zip {
+    width: 75%;
+    padding: 10px 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#zip:focus {
+    background-color: rgb(223, 223, 223);
+}
+
+#generate {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(41, 160, 41);
+    border-radius: 20px;
+    border: none;
+    opacity: .8;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#generate:hover {
+    opacity: 1;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.entry {
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+.data {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
