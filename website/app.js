@@ -10,7 +10,7 @@ const contentDiv = document.getElementById('content');
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = (day.getMonth() + 1) + '/'+ day.getDate()+'/'+ day.getFullYear();
+let newDate = (d.getMonth() + 1) + '/' + d.getDate() + '/' + d.getFullYear();
 
 generateButton.addEventListener('click', generateData);
 
